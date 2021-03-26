@@ -59,7 +59,7 @@ const postPackage = (request, response) => {
 
 
     //Email with OTP and return package info and customerName
-    pool.query('SELECT OTP FROM package WHERE customername=$1',value, (error, results) => {
+    pool.query('SELECT OTP,customername,status FROM package WHERE customername=$1',value, (error, results) => {
       if (error) {
         throw error
       }
@@ -73,7 +73,7 @@ const postPackage = (request, response) => {
         to: 'akulshi04@gmail.com', // list of receivers
         subject: 'Your Package Is On its Way!', // Subject line
         body: 'Please See Your OTP Number Listed Above',
-        html: OTP + '<h5>Please See Your OTP number listed above</h5>' 
+        html: OTP + '<h3>Please see Your OTP number listed above</h3>' 
     }, function(error, info){
         if(error){
             return console.log(error);
@@ -81,19 +81,6 @@ const postPackage = (request, response) => {
         console.log('Message sent: ' + info.response);
     }); 
   }
-
-
-
-
-
-let mailOptions = {
-    from: 'akulshi04@gmail.com', // sender address
-    to: 'dey.olenka@gmail.com', // list of receivers
-    subject: 'Your Package Is On its Way!', // Subject line
-    body: 'Please See Your OTP Number Listed Above',
-    html: '<h5>Please See Your OTP Number Listed Above</h5>'
-};
-// send mail with defined transport object
 
 
 
