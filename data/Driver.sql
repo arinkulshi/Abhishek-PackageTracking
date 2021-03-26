@@ -1,0 +1,1 @@
+insert into Driver (carDimension, dlExpiration, fromTime, toTime, licenseID, name, nextAvailableDate, registrationNo) values ('ac leo pellentesque ultrices mattis', '11/9/2020', '3:58 AM', '5:09 PM', 2376, 'Bay Shaddock', '9/28/2020', 100);

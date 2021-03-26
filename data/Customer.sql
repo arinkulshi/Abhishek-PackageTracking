@@ -1,0 +1,10 @@
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Cliff Micallef', 'cmicallef0@hubpages.com', 'GO8xes', '10112 Bellgrove Crossing', '348-499-2299', 56);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Egan Blaszczak', 'eblaszczak1@yelp.com', 'SwR11Q', '5 Almo Circle', '418-459-3822', 44);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Nichole Kilbride', 'nkilbride2@discovery.com', 'FguJKLt2', '2628 Union Circle', '992-175-9497', 36);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Adella O''Howbane', 'aohowbane3@engadget.com', 'PC3Vxnju', '047 Sunfield Point', '873-125-2822', 95);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Anson Yearn', 'ayearn4@mapquest.com', 'DgMMd6D', '4696 Oneill Alley', '347-516-1985', 39);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Hermione Smedley', 'hsmedley5@omniture.com', 'ZGlnkFjY', '956 Merchant Parkway', '682-446-0657', 20);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Mattie Alexandre', 'malexandre6@mac.com', 'IiqnjLfIcx', '64 8th Trail', '707-678-7437', 46);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Brana Palfree', 'bpalfree7@fema.gov', 'Gk3oLm', '05 Shelley Crossing', '122-850-1888', 53);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Moss Baudts', 'mbaudts8@state.gov', 'BJMSKKLbLWA', '8 Forest Run Pass', '886-498-4470', 55);
+insert into Customer (userName, emailAddress, password, deliveryAddress, phoneNumber, OTP) values ('Michale Mothersdale', 'mmothersdale9@squarespace.com', 'ImAc9Gwpv', '88 Clarendon Parkway', '679-382-1406', 53);

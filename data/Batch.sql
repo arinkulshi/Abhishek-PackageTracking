@@ -1,0 +1,10 @@
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (1, 14, '9/18/2020', '12:08 PM', 11);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (2, 18, '3/26/2020', '8:39 PM', 12);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (3, 30, '12/4/2020', '2:35 AM', 2);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (4, 40, '3/17/2021', '3:41 PM', 2);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (5, 27, '12/28/2020', '5:48 PM', 10);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (6, 31, '11/7/2020', '3:32 PM', 5);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (7, 28, '5/27/2020', '6:01 AM', 7);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (8, 83, '4/18/2020', '7:46 AM', 8);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (9, 40, '11/9/2020', '7:18 PM', 18);
+insert into Batch (batchID, licenseID, dispatchDate, dispatchTime, totalPackages) values (10, 12, '6/26/2020', '3:10 PM', 19);
