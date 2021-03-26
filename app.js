@@ -15,7 +15,7 @@ app.use(
 )
 
 
-app.get('/package', db.getPackage)
+app.post('/package', db.postPackage)
 
 
 app.listen(3000);
